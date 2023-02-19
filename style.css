@@ -1,0 +1,488 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Maven Pro", Helvetica, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  min-height: 100vh;
+}
+
+html {
+  width: 100%;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+/*
+.wrapper {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+*/
+
+.hero-image {
+  background-image: url("images/NF_ProfilePhoto-compressed.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: black;
+  min-height: 100vh;
+}
+
+.menuPlus {
+  display: none;
+}
+
+#myNav {
+  display: none;
+}
+
+#mySocial {
+  display: none;
+}
+
+.logo a {
+  display: block;
+  width: 69.75px;
+  height: 47px;
+}
+
+.logo a img {
+  display: block;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+main {
+  
+}
+
+.navlinks {
+  list-style: none;
+  display: flex;
+}
+
+.navlinks li {
+  margin: 0 .5rem;
+}
+
+.navlinks a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.socialIcons i {
+  color: white;
+  cursor: pointer;
+  font-size: 2.5rem;
+  margin: 0 .5rem;
+  
+}
+
+.tour {
+  color: white;
+  text-align: center;
+  background-color: black;
+  margin: 0 auto;
+  padding-top: 500px;
+  min-height: 100vh;
+}
+
+.tour h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  padding: 2rem;
+}
+
+.tour p {
+  padding: 2rem;
+  font-size: 1.4rem;
+  width: 440px;
+  margin: 1rem auto;
+  line-height: 1.7;
+}
+
+.tour a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  font-size: 1.8rem;
+}
+
+
+
+.videos {
+  color: white;
+  text-align: center;
+  background-color: black;
+  margin: 0 auto;
+  padding-top: 500px;
+  min-height: 100vh;
+}
+
+.videos h2 {
+  font-size: 4rem;
+  padding: 2rem;
+  font-weight: bold;
+}
+
+.videos h3 {
+  font-size: 3rem;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.videos a {
+  display: block;
+  margin: 0 auto;
+  width: 9rem;
+}
+
+.videos a:hover {
+  opacity: .8;
+}
+
+#playYT {
+  text-decoration: none;
+  color: white;
+  font-size: 7.2rem;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  padding: 1.5rem;
+}
+
+footer p {
+  color: white;
+  font-size: 12px;
+  
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  
+}
+
+.site-footer-middle ul li {
+  display: inline-block;
+  list-style: none;
+  text-align: right;
+}
+
+.site-footer-left {
+  float: none;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+
+.music {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 300px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.music .album, .album-links, .spotify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.music h2 {
+  font-size: 4rem;
+  padding: 4rem;
+  font-weight: bold;
+  
+}
+
+#albumCover {
+  float: left;
+  margin: 0;
+}
+
+.merch {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 250px;
+  min-height: 100vh;
+}
+
+.merch h2 {
+  font-size: 4rem;
+  padding: 2rem;
+  font-weight: bold;
+  
+}
+
+.spotify iframe {
+  padding-top: 10px;
+}
+
+.album-links {
+  list-style: none;
+  margin: 1rem auto;
+}
+
+.album-links li {
+  padding: .5rem;
+  margin: .5rem;
+  border: 1px solid gray;
+}
+
+.album-links li:hover {
+  border: 1px solid white;
+}
+
+.album-links li a {
+  text-decoration: none;
+  color: white;
+  padding: .5rem;
+  margin: .5rem;
+  display: block;
+  font-size: 1.8rem;
+}
+
+.clothing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+#shopNF {
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
+  font-size: 2rem;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  width: 786px;
+  margin: 1rem auto;
+}
+
+#shopNF:hover {
+  background-color: gray;
+}
+
+.albumDisc a {
+  display: block;
+  width: 270px;
+  height: 270px;
+  margin: 0 auto;
+}
+
+.albumDisc a img {
+  display: block;
+  width: 270px;
+  height: 270px;
+}
+
+#orderNF {
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
+  font-size: 2rem;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  width: 786px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1440px) {
+  .tour {
+    padding-top: 200px;
+  }
+
+  .videos {
+    padding-top: 200px;
+  }
+
+  .music {
+    padding-top: 40px;
+  }
+
+  .merch {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .tour {
+    padding-top: 100px;
+  }
+
+  .videos {
+    padding-top: 100px;
+  }
+
+  .music {
+    padding-top: 5px;
+  }
+
+  .merch {
+    padding-top: 35px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #orderNF, #shopNF{
+    width: 600px;
+  }
+
+  .clothing {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .clothing img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .menuPlus {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  .menuPlus i {
+    padding-left: 2rem;
+    cursor: pointer;
+  }
+
+  .socialIcons {
+    display: none;
+  }
+
+  .navlinks {
+    display: none;
+  }
+
+  .tour p {
+    width: 300px;
+  }
+  
+  #albumCover {
+    width: 300px;
+    height: 280px;
+    padding-bottom: 1rem;
+  }
+  
+  .album-links {
+    flex-direction: column;  
+  }
+
+  #orderNF, #shopNF {
+    width: 300px;
+  }
+
+  .clothing {
+    flex-direction: column;
+    width: 300px;
+  }
+
+  .overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0, .8);
+    overflow-x: hidden;
+  }
+
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .overlay a {
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 2.4rem;
+    color: white;
+    display: block;
+  }
+
+  .overlay .closebtn {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    font-size: 6rem;
+  }
+
+
+  .overlay-social {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0, .8);
+    overflow-x: hidden;
+  }
+
+  .overlay-content-social {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .overlay-content-social i {
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 2.4rem;
+    color: white;
+    display: block;
+  }
+
+  .overlay-social .closebtnS {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    font-size: 6rem;
+    text-decoration: none;
+    color: white;
+  }
+
+  
+}
